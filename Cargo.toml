@@ -1,0 +1,11 @@
+[package]
+name = "shell_command"
+version = "0.1.0"
+authors = ["Thomas BESSOU <thomas.bessou@hotmail.fr>"]
+edition = "2018"
+description = "Simpler API than std::Process for running shell commands which are meant to succeed (non-zero status)"
+repository = "https://github.com/Ten0/rust-shell_command"
+license = "LGPL-3.0-only"
+
+[dependencies]
+failure = "0.1.5"
